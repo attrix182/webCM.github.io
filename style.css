@@ -31,7 +31,7 @@ body
   
   /* Change the background color on mouse-over */
   .header a:hover {
-    background-color: white;
+    background-color:#ffcabc;
     color: black;
   }
   
