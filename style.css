@@ -62,7 +62,7 @@ body {
 @media screen and (max-width: 780px) {
     .header a {
         float: none;
-        display: inline;
+        display: block;
         text-align: left;
     }
     .header-right {
