@@ -60,7 +60,7 @@ body {
 
 /* responsive Menu */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 780px) {
     .header a {
         float: none;
         display: block;
@@ -77,4 +77,21 @@ body {
 .responsive {
     width: 100%;
     height: auto;
+}
+
+.content-inner {
+    background-color: #ffffff;
+}
+
+.content-inner {
+    padding: 10px 10px;
+}
+
+.content-inner {
+    padding: 10px;
+}
+
+div {
+    padding: 20px;
+    display: block;
 }
