@@ -30,7 +30,7 @@ body {
     font-family: fairwater-sans, sans-serif;
     font-weight: 400;
     font-style: normal;
-    line-height: 10px;
+    line-height: 5px;
     border-radius: 10px;
 }
 
@@ -92,6 +92,6 @@ body {
 }
 
 div {
-    padding: 35px;
+    padding: 45px;
     display: block;
 }
