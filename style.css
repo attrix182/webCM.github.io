@@ -14,7 +14,7 @@ body {
 .header {
     overflow: hidden;
     background-color: #ffcabc;
-    padding: 20px 10px;
+    padding: 5px 10px;
 }
 
 
@@ -24,13 +24,14 @@ body {
     float: left;
     color: black;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     text-decoration: none;
-    font-size: 25px;
-    font-style: bold;
-    font-family: 'Helvetica', 'Verdana', 'Monaco', sans-serif;
+    font-size: 24px;
+    font-family: fairwater-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     line-height: 10px;
-    border-radius: 2px;
+    border-radius: 10px;
 }
 
 
@@ -91,6 +92,6 @@ body {
 }
 
 div {
-    padding: 20px;
+    padding: 35px;
     display: block;
 }
