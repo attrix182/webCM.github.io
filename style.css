@@ -46,7 +46,8 @@ body {
 /* Style the active/current link*/
 
 .header a.active {
-    color: black;
+    background-color: #f6eee1;
+    color: #2d1303;
 }
 
 
@@ -94,5 +95,58 @@ body {
 div {
     padding: 45px;
     display: block;
+}
+
+
+/*Barra desplegable*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 24px;
+    font-family: fairwater-sans, sans-serif;
+}
+
+nav {
+    width: 20%;
+    max-height: 0px;
+    overflow: hidden;
+    transition: 1s all;
+}
+
+.mostrar {
+    max-height: 500px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    line-height: 50px;
+    border-bottom: 1px solid #ffcabc;
+    background-color: #ffcabc;
+    color: #2d1303;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #ffcabc;
+    color: #fff;
+}
+
+.menu {
+    padding: 20px;
+    background-color: #ffcabc;
+    color: #2d1303;
+    width: 15%;
+    cursor: pointer;
 }
 
