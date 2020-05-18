@@ -98,55 +98,59 @@ div {
 }
 
 
-/*Barra desplegable*/
+/*Menu desplegable en secciones*/
 
-@import url(https://fonts.googleapis.com/css?family=Roboto);
-* {
+#menu ul li {
+    background-color: #ffcabc;
+}
+
+#menu ul {
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
-body {
+#menu ul a {
+    display: block;
+    color: #2d1303;
+    text-decoration: none;
     font-size: 24px;
     font-family: fairwater-sans, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
-nav {
-    width: 20%;
-    max-height: 0px;
-    overflow: hidden;
-    transition: 1s all;
+#menu ul li {
+    width: auto;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
 }
 
-.mostrar {
-    max-height: 500px;
+#menu ul li:hover {
+    background: #f6eee1;
 }
 
-nav ul {
-    list-style: none;
+#menu ul ul {
+    display: none;
+    position: absolute;
+    /*top: 100%;
+    left: 0;
+    padding: 0;*/
 }
 
-nav ul li a {
-    text-decoration: none;
+#menu ul ul li {
+    float: none;
+    width: auto;
+}
+
+#menu ul ul a {
+    line-height: 100%;
+    padding: 10px 20px;
+}
+
+#menu ul li:hover>ul {
     display: block;
-    line-height: 50px;
-    border-bottom: 1px solid #ffcabc;
-    background-color: #ffcabc;
-    color: #2d1303;
-    font-size: 1.2em;
-    padding: 10px;
 }
-
-nav ul li a:hover {
-    background-color: #ffcabc;
-    color: #fff;
-}
-
-.menu {
-    padding: 20px;
-    background-color: #ffcabc;
-    color: #2d1303;
-    width: 15%;
-    cursor: pointer;
-}
-
