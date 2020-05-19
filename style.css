@@ -31,6 +31,7 @@ body {
     font-weight: 400;
     font-style: normal;
     line-height: 5px;
+    letter-spacing: 1px;
     border-radius: 10px;
 }
 
@@ -40,6 +41,7 @@ body {
 .header a:hover {
     background-color: #f6eee1;
     color: #2d1303;
+    
 }
 
 
@@ -111,7 +113,9 @@ div {
 }
 
 #menu ul a {
-    width: 300px;
+
+
+    width: 2500px;
     display: block;
     color: #2d1303;
     text-decoration: none;
@@ -120,32 +124,38 @@ div {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1px;
+    border-radius: 10px;
 }
 
 #menu ul li {
-    width: auto;
+    width: max-content;
     position: relative;
     float: left;
     margin: 0;
     padding: 0;
+    
 }
 
 #menu ul li:hover {
+
+    background-color: #f6eee1;
+    color: #2d1303;
+    border-radius: 10px;
+
+    
+}
+
+#menu ul li a.active {
     background-color: #f6eee1;
     color: #2d1303;
 }
 
-#menu ul li a.active {
-        background-color: #f6eee1;
-        color: #2d1303;
-    }
-
 #menu ul ul {
     display: none;
     position: absolute;
-    /*top: 100%;
+    top: 100%;
     left: 0;
-    padding: 0;*/
+    padding: 0;
 }
 
 #menu ul ul li {
